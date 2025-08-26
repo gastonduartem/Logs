@@ -1,0 +1,7 @@
+# Entorno y cachés
+.venv/
+__pycache__/
+*.pyc
+
+# DBs locales
+*.db
