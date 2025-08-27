@@ -20,6 +20,7 @@ que valida, guarda y expone los logs para consulta.
 
 ## 📂 Estructura del proyecto
 
+```bash
 proyectos/Logs/
 │
 ├── app/
@@ -34,6 +35,7 @@ proyectos/Logs/
 ├── client_reports_auto.py # Cliente automático: envía logs aleatorios
 ├── logs.db # Base de datos SQLite (se crea al correr la app)
 └── README.md # Este archivo
+```
 
 ---
 
