@@ -15,5 +15,5 @@ if __name__ == "__main__":
     # Arrancamos el servidor
     # host="127.0.0.1" → accesible solo desde tu máquina
     # port=8000 → puerto donde se levanta la app
-    # debug=True → recarga automática y mensajes de error detallados (solo en desarrollo)
+    # debug=True → recarga automática y mensajes de error detallados (solo en desarrollo) (por si hay un error o queres modificar algo en el odigo, que cafgue automaticamente y que no corte servidor)
     app.run(host="127.0.0.1", port=8000, debug=True)

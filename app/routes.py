@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Tuple
 # Importamos helpers de autenticación
 from .auth import validate_token, TOKENS
 
-# >>> NUEVO: imports para DB y parseo de fecha real
+# imports para DB y parseo de fecha real
 from dateutil import parser as dtparser   # parsea ISO8601 “en serio”
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy import select
