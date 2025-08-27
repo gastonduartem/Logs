@@ -3,6 +3,7 @@
 # Crea y configura la app Flask. 
 
 from flask import Flask
+from .db import init_db
 
 def create_app():
     """
@@ -14,9 +15,14 @@ def create_app():
     # Creamos la instancia de Flask, __name__ inicializador
     app = Flask(__name__)
 
+    # Inicializamos DB al crear la App
+    init_db()
+
     # Importamos y registramos las rutas definidas en routes.py
     from .routes import bp as routes_bp
     app.register_blueprint(routes_bp)
 
     # Retornamos la app creada
     return app
+
+
