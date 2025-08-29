@@ -3,7 +3,7 @@
 
 from datetime import datetime
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column #Es una clase base que usamos para declarar nuestros modelos ORM, Cada modelo (ej: Log) hereda de esta base,| Es un tipo genérico (tipo anotación) para indicar que un atributo de la clase es una columna de la DB | Es la función que define la columna real dentro del modelo. Ahí se ponen las configuraciones: tipo SQL, si es primary_key, nullable, default, etc.
-from sqlalchemy import String, DateTime, Integer, Text, Index
+from sqlalchemy import String, DateTime, Integer, Text
 
 # Base para los modelos (requerido por SQLAlchemy)
 class Base(DeclarativeBase):

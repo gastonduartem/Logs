@@ -31,7 +31,7 @@ MESSAGES = [
     "Reintento de envío de email",
     "Reporte vacío (sin datos)",
     "Cache caliente poblada",
-    "Conexión a base restablecida",
+    "Conexión a base restablecida"
 ]
 
 

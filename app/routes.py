@@ -73,7 +73,7 @@ def root():
 def health():
     return jsonify({
         "status": "ok",
-        "service": "log-central (step-3, con DB)",
+        "service": "log-central",
         "time": datetime.now(timezone.utc).isoformat()
     })
 
